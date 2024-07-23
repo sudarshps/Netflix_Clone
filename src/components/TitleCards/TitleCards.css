@@ -1,0 +1,36 @@
+.titlecards{
+    padding:50px 6%;
+
+}
+
+.titlecards h3{
+    margin-bottom: 8px;
+    font-family: 'poppins';
+    font-size: 20px;
+}
+
+.card{
+    background-color: black;
+}
+
+.card-list{
+    display: flex;
+    gap: 210px;
+    overflow-x: scroll;
+    align-items: center;
+}
+
+.card-list::-webkit-scrollbar{
+    display: none;
+}
+
+.card-list img{
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+
+
+

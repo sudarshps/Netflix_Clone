@@ -1,0 +1,103 @@
+.home{
+  background-image: url('/minew.jpg');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.user-home{
+ padding: 10px;
+ position: absolute;
+ justify-content: center;
+ align-items: center;
+ left: 5%;
+ top: 25%;
+}
+
+.row img{
+  width: 35px;
+  height: 60px;
+  top: 15%;
+  left: 5%;
+}
+.row h2{
+  margin-top: 5px;
+  padding-top: 10px;
+  color: #b3b3b3;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 24px;
+  
+  
+}
+
+.synopsis h2{
+  position: absolute;
+  top: 100%;
+  left: 6.5%;
+  font-size: 18px;
+  font-family: 'poppins';
+  width: 260px;
+}
+
+.synopsis p{
+  width: 300px;
+  position: absolute;
+  top: 200%;
+  left: 6.5%;
+  font-size: 12px;
+  font-family: 'poppins';
+  color: #b3b3b3;
+}
+
+
+.user-btns{
+  display: flex;
+  gap: 10px;
+  top: 350%;
+  left: 6.5%;
+  position: absolute;
+}
+.user-btns .btn img{
+  width: 30px;
+  height: 30px;
+}
+.user-btns .btn{
+  border: 0;
+  outline: 0;
+  padding: 8px 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 50px;
+}
+
+#dark-btn{
+  color: #fff;
+  background: #6d6d6eb3;
+}
+.user-btns .btn:hover{
+  background: #ffffffbf;
+}
+
+#dark-btn:hover{
+  background: #6d6d6e66;
+}
+
+
+
+@media (max-width: 800px) {
+  .user-home{
+    top: 85%;
+  }
+  .title-cards{
+    margin-top: 100%;
+  }
+}
